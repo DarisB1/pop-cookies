@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    width: 35%;
+    height: 70%;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    position: absolute;
+    top: 150px;
+    width: 35%;
+    height: 35%;
+    background-color: red;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.blue {
+    position: absolute;
+    top: 170px;
+    left: 200px;
+    width: 35%;
+    height: 35%;
+    background-color: blue;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.yellow {
+    position: absolute;
+    top: 190px;
+    left: 220px;
+    width: 35%;
+    height: 35%;
+    background-color: yellow;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.cookies-pop {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #d9d9d9;
+    border-radius: 12px;
+    padding: 6px;
+    align-items: center;
+}
+
+.div-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 20px;
+    
+}
+
+.Accepter {
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    padding: 5px;
+    color: white;
+}
+
+.Refuser {
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+    color: blue;
+    margin-right: 5rem;
+}
